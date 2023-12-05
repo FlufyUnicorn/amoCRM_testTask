@@ -45,6 +45,12 @@
   text-transform: uppercase;
 }
 
+.footer__link {
+  color: #E4E5EA;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .footer__heading_right {
   text-align: right;
   margin-bottom: 0;
@@ -72,6 +78,10 @@
   list-style-type: none;
   justify-content: end;
   column-gap: 10px;
+}
+
+.footer__icons-item {
+  cursor: pointer;
 }
 
 .footer__contacts-item {
@@ -160,7 +170,7 @@
 @media screen and (max-width: 600px) {
   .footer {
     margin-top: 45px;
-    padding: 0 16px  60px;
+    padding: 0 16px 60px;
   }
 
   .footer__chapters {

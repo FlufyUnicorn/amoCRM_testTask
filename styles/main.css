@@ -116,6 +116,7 @@
   margin-top: 31px;
   max-width: 262px;
   align-self: end;
+  cursor: pointer;
 }
 
 .red-ball {
