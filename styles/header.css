@@ -1,0 +1,140 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 94px;
+  justify-content: space-between;
+  padding: 57px 150px 0;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__chapters {
+  display: flex;
+  list-style-type: none;
+  column-gap: 30px;
+  padding: 0;
+  align-items: center;
+  margin: 0 137px 0 0;
+}
+
+.header__chapter {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header__link {
+  color: #E4E5EA;
+  text-decoration: none;
+}
+
+.header__contacts {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.header__icons {
+  padding-left: 47px;
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  column-gap: 30px;
+}
+
+.header__logos {
+  display: flex;
+  column-gap: 8px;
+  margin-right: 52px;
+}
+
+.header__logo1 {
+  width: 35px;
+  height: 24px;
+}
+
+.header__logo2 {
+  width: 97px;
+  height: 15px;
+  align-self: center;
+}
+
+.header__company-about {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  max-width: 165px;
+  margin: 10px 0 0;
+}
+
+.header__contacts-item {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__contacts-item {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 1080px) {
+  .header {
+    margin-bottom: 30px;
+  }
+
+  .header__chapters {
+    column-gap: 20px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .header__chapter {
+    font-size: 12px;
+  }
+
+  .header__logos {
+    margin-right: 10px;
+  }
+
+  .header__contacts {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    margin-bottom: 20px;
+    padding: 20px 16px 0;
+  }
+
+  .header__chapters {
+    column-gap: 16px;
+  }
+
+  .header__logos {
+    display: none;
+  }
+
+  .header__company-about {
+    display: none;
+  }
+
+  .header__chapter_certificates {
+    display: none;
+  }
+}
